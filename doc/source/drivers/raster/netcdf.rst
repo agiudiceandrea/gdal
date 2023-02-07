@@ -270,24 +270,24 @@ Open options
 
 The following open options are available:
 
--  **HONOUR_VALID_RANGE**\ =YES/NO: (GDAL > 2.2) Whether to set to
+-  **HONOUR_VALID_RANGE=[YES/NO]** : (GDAL > 2.2) Whether to set to
    nodata pixel values outside of the validity range indicated by
    valid_min, valid_max or valid_range attributes. Default is YES.
 
--  **IGNORE_XY_AXIS_NAME_CHECKS**\ =YES/NO: (GDAL >= 3.4.2) Whether X/Y dimensions
+-  **IGNORE_XY_AXIS_NAME_CHECKS=[YES/NO]** : (GDAL >= 3.4.2) Whether X/Y dimensions
    should be always considered as geospatial axis, even if the lack
    conventional attributes confirming it. Default is NO.
 
--  **VARIABLES_AS_BANDS**\ =YES/NO: (GDAL >= 3.5) If set to YES, and if the
+-  **VARIABLES_AS_BANDS=[YES/NO]** : (GDAL >= 3.5) If set to YES, and if the
    netCDF file only contains 2D variables of the same type and indexed by the
    same dimensions, then they should be reported as multiple bands of a same dataset.
    Default is NO (that is each variable will be reported as a separate
    subdataset)
    
--  **ASSUME_LONGLAT=[YES/NO]** :  (GDAL >= 3.7) Whether a Geographic CRS should
-    be assumed and applied when, none has otherwise been found, a meaningful 
-    geotransform has been found, and that geotransform is within the bounds 
-    -180,360 -90,90, if YES assume OGC:CRS84. Default is NO.
+-  **ASSUME_LONGLAT=[YES/NO]** : (GDAL >= 3.7) Whether a Geographic CRS should
+   be assumed and applied when, none has otherwise been found, a meaningful 
+   geotransform has been found, and that geotransform is within the bounds 
+   -180,360 -90,90, if YES assume OGC:CRS84. Default is NO.
 
 
 Creation Issues
@@ -516,10 +516,10 @@ Configuration Options
    should be always considered as geospatial axis, even if the lack
    conventional attributes confirming it. Default is NO.
 
--  **GDAL_NETCDF_ASSUME_LONGLAT=[YES/NO]** :  GDAL >= 3.7) Whether a Geographic CRS should
-    be assumed and applied when, none has otherwise been found, a meaningful 
-    geotransform has been found, and that geotransform is within the bounds 
-    -180,360 -90,90, if YES assume OGC:CRS84. Default is NO.
+-  **GDAL_NETCDF_ASSUME_LONGLAT=[YES/NO]** : (GDAL >= 3.7) Whether a Geographic CRS should
+   be assumed and applied when, none has otherwise been found, a meaningful 
+   geotransform has been found, and that geotransform is within the bounds 
+   -180,360 -90,90, if YES assume OGC:CRS84. Default is NO.
     
 VSI Virtual File System API support
 -----------------------------------
