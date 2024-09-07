@@ -74,7 +74,7 @@ The following creation options are available:
       :default: NO
 
       Force the generation of an associated ESRI world
-      file (with the extension .wld). See `World File <#WLD>`__ section for
+      file (with the extension .wld). See :ref:`World Files <raster.wld>` section for
       details.
 
 -  .. co:: ZLEVEL=n
