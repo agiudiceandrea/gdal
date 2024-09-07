@@ -169,7 +169,8 @@ The following creation options are supported:
       :choices: YES
 
       Force the generation of an associated ESRI world
-      file (with the extension .wld).
+      file (with the extension .wld). See :ref:`World Files <raster.wld>`
+      section for details.
 
 -  .. co:: QUALITY
       :choices: 1-100

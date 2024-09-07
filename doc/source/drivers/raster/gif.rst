@@ -45,6 +45,7 @@ The following creation options are supported:
      :default: OFF
 
      Force the generation of an associated ESRI world file (.wld).
+     See :ref:`World Files <raster.wld>` section for details.
 
 - .. co:: INTERLACING
      :choices: ON, OFF

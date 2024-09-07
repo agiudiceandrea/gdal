@@ -70,6 +70,7 @@ The following creation options are supported.
       :choices: YES
 
       to write an ESRI world file (with the extension .j2w).
+      See :ref:`World Files <raster.wld>` section for details.
 
 -  .. co:: COMPRESSION
 
