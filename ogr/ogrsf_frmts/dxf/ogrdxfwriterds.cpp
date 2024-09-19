@@ -330,7 +330,7 @@ static bool WriteValue(VSILFILE *fp, int nCode, double dfValue)
 {
     char szLinePair[64];
 
-    CPLsnprintf(szLinePair, sizeof(szLinePair), "%3d\n%.15g\n", nCode, dfValue);
+    CPLsnprintf(szLinePair, sizeof(szLinePair), "%3d\n%.16g\n", nCode, dfValue);
     size_t nLen = strlen(szLinePair);
     if (VSIFWriteL(szLinePair, 1, nLen, fp) != nLen)
     {
